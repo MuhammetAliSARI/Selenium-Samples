@@ -56,7 +56,6 @@ public class Klasor_ve_icinde_excel_dosyasi{
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         // Workbook ve FileOutputStream'i kapatıyoruz
         try {
             workbook.close();
